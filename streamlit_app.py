@@ -249,14 +249,15 @@ def process_csv(input_csv, remove_cols=None):
 # ---------------------------
 
 def main_app():
-    st.title("CSV Transformer")
+    st.title("Antelope Appointment Data Transformer 🫡")
 
     st.markdown(
         """
         **Instructions**:
-        1. Upload your CSV file (must contain the necessary headers).
-        2. The script will remove certain columns, split group appointments, clean appointment data, and more.
-        3. Once the process is complete, you'll be able to download the transformed CSV.
+        1. Download an Appointment export from Healthie from the previous Friday through current Thursday.
+        2. Upload that CSV here.
+        3. Download the outputted CSV from here.
+        4. Open the CSV on your local machine and copy and paste the content of the outputted CSV into the Data sheet of the Billing+Client List spreadsheet.
         """
     )
 
